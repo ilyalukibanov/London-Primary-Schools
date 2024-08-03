@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+key.txt
+schools/
+religious_schools/
+ratings/
+inspections/
+exceptions/
+school_coordinates/
+districts_geojson.json

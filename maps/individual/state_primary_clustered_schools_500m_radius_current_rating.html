@@ -1,0 +1,3329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_502fa4c5f5946671d0ca53e9d9bee42f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+    <div style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;     
+        font-size:18px;
+        font-weight: bold;
+        ">London Clustered Non-Religious State Outstanding Primary Schools with Radius = 500m</div> 
+    
+            <div class="folium-map" id="map_502fa4c5f5946671d0ca53e9d9bee42f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_502fa4c5f5946671d0ca53e9d9bee42f = L.map(
+                "map_502fa4c5f5946671d0ca53e9d9bee42f",
+                {
+                    center: [51.53, -0.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c5d29379927d7051f38135f45626a79 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_1c5d29379927d7051f38135f45626a79.addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+            var circle_c7968b4d5224abadf03e1fdc6e21e856 = L.circle(
+                [51.5322728, -0.1311783],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_1b45baca9e6e4714e66f5ff76df16581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7262da68414f1deb7540abab44a1d8f = $(`<div id="html_b7262da68414f1deb7540abab44a1d8f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_1b45baca9e6e4714e66f5ff76df16581.setContent(html_b7262da68414f1deb7540abab44a1d8f);
+            
+        
+
+        circle_c7968b4d5224abadf03e1fdc6e21e856.bindPopup(popup_1b45baca9e6e4714e66f5ff76df16581)
+        ;
+
+        
+    
+    
+            circle_c7968b4d5224abadf03e1fdc6e21e856.bindTooltip(
+                `<div>
+                     Edith Neville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d94d92dcc83236ecbafa3f5d1ac205f5 = L.circle(
+                [51.5478568, -0.1501433],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_813cb9f60e9435721b670a8561fc2439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c8aa3083e035d481b9779396e01d47f = $(`<div id="html_6c8aa3083e035d481b9779396e01d47f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_813cb9f60e9435721b670a8561fc2439.setContent(html_6c8aa3083e035d481b9779396e01d47f);
+            
+        
+
+        circle_d94d92dcc83236ecbafa3f5d1ac205f5.bindPopup(popup_813cb9f60e9435721b670a8561fc2439)
+        ;
+
+        
+    
+    
+            circle_d94d92dcc83236ecbafa3f5d1ac205f5.bindTooltip(
+                `<div>
+                     Rhyl Community Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_942df1fc64b7d25c4cfc9187ba592480 = L.circle(
+                [51.5355424, -0.1355969],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_7e78794f4b90747e7ffc4caccdebf709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d260dac888c8e94bc91147bc7ae3d3a = $(`<div id="html_7d260dac888c8e94bc91147bc7ae3d3a" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_7e78794f4b90747e7ffc4caccdebf709.setContent(html_7d260dac888c8e94bc91147bc7ae3d3a);
+            
+        
+
+        circle_942df1fc64b7d25c4cfc9187ba592480.bindPopup(popup_7e78794f4b90747e7ffc4caccdebf709)
+        ;
+
+        
+    
+    
+            circle_942df1fc64b7d25c4cfc9187ba592480.bindTooltip(
+                `<div>
+                     Richard Cobden Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f3b5f63e45dcf936d7d4a426ce5e2fa5 = L.circle(
+                [51.5496252, -0.1322039],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_8fb4e5a0c0052bf0919031057a40bd48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc543a55ab4fd6869029ee691d47a8b4 = $(`<div id="html_dc543a55ab4fd6869029ee691d47a8b4" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_8fb4e5a0c0052bf0919031057a40bd48.setContent(html_dc543a55ab4fd6869029ee691d47a8b4);
+            
+        
+
+        circle_f3b5f63e45dcf936d7d4a426ce5e2fa5.bindPopup(popup_8fb4e5a0c0052bf0919031057a40bd48)
+        ;
+
+        
+    
+    
+            circle_f3b5f63e45dcf936d7d4a426ce5e2fa5.bindTooltip(
+                `<div>
+                     Torriano Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_da35247c5afe7f763d36a44562271603 = L.circle(
+                [51.5542961, -0.1534079],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_0224b531db31ef5973a8174d656ed093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854da96672cb3733bfd1015871b3382b = $(`<div id="html_854da96672cb3733bfd1015871b3382b" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_0224b531db31ef5973a8174d656ed093.setContent(html_854da96672cb3733bfd1015871b3382b);
+            
+        
+
+        circle_da35247c5afe7f763d36a44562271603.bindPopup(popup_0224b531db31ef5973a8174d656ed093)
+        ;
+
+        
+    
+    
+            circle_da35247c5afe7f763d36a44562271603.bindTooltip(
+                `<div>
+                     Gospel Oak Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d5cb53f38a2278f2d5d85fe39b19c5c = L.circle(
+                [51.5550936, -0.1383652],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_54b3005688ea6510455606bfb60ad2b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd58e019a0617a7b1df18e818277ef7 = $(`<div id="html_0fd58e019a0617a7b1df18e818277ef7" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_54b3005688ea6510455606bfb60ad2b6.setContent(html_0fd58e019a0617a7b1df18e818277ef7);
+            
+        
+
+        circle_7d5cb53f38a2278f2d5d85fe39b19c5c.bindPopup(popup_54b3005688ea6510455606bfb60ad2b6)
+        ;
+
+        
+    
+    
+            circle_7d5cb53f38a2278f2d5d85fe39b19c5c.bindTooltip(
+                `<div>
+                     Eleanor Palmer Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9d414e9bcf77bab427d6c2b92f9fd81 = L.circle(
+                [51.493975, 0.083545],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_950f396e812964148712592cf89f6116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4060dd7f08af271e1b308fd6c1294a26 = $(`<div id="html_4060dd7f08af271e1b308fd6c1294a26" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_950f396e812964148712592cf89f6116.setContent(html_4060dd7f08af271e1b308fd6c1294a26);
+            
+        
+
+        circle_e9d414e9bcf77bab427d6c2b92f9fd81.bindPopup(popup_950f396e812964148712592cf89f6116)
+        ;
+
+        
+    
+    
+            circle_e9d414e9bcf77bab427d6c2b92f9fd81.bindTooltip(
+                `<div>
+                     Heronsgate Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3001e9c724631b2f077b0979a38a221d = L.circle(
+                [51.5377441, -0.0584057],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d9dfd8bcfceb5db2309bdd95a849cf67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d748cefd664f64b27b6c5481b277214 = $(`<div id="html_6d748cefd664f64b27b6c5481b277214" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d9dfd8bcfceb5db2309bdd95a849cf67.setContent(html_6d748cefd664f64b27b6c5481b277214);
+            
+        
+
+        circle_3001e9c724631b2f077b0979a38a221d.bindPopup(popup_d9dfd8bcfceb5db2309bdd95a849cf67)
+        ;
+
+        
+    
+    
+            circle_3001e9c724631b2f077b0979a38a221d.bindTooltip(
+                `<div>
+                     London Fields Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d8a86759985ae80301abecba8015e109 = L.circle(
+                [51.5380585, -0.0702974],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_21ade70549e58357401866bb3ac43d7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_973cf18893f21bc250599b9a947c55e0 = $(`<div id="html_973cf18893f21bc250599b9a947c55e0" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_21ade70549e58357401866bb3ac43d7e.setContent(html_973cf18893f21bc250599b9a947c55e0);
+            
+        
+
+        circle_d8a86759985ae80301abecba8015e109.bindPopup(popup_21ade70549e58357401866bb3ac43d7e)
+        ;
+
+        
+    
+    
+            circle_d8a86759985ae80301abecba8015e109.bindTooltip(
+                `<div>
+                     Queensbridge Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fa17703836b8e83a2db14c2a94cb5427 = L.circle(
+                [51.53333139999999, -0.0650139],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_4d930ce3c15e07ad459d45d8a7a9996e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a16a2a16e0e1901ad828cee42cb9f32e = $(`<div id="html_a16a2a16e0e1901ad828cee42cb9f32e" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_4d930ce3c15e07ad459d45d8a7a9996e.setContent(html_a16a2a16e0e1901ad828cee42cb9f32e);
+            
+        
+
+        circle_fa17703836b8e83a2db14c2a94cb5427.bindPopup(popup_4d930ce3c15e07ad459d45d8a7a9996e)
+        ;
+
+        
+    
+    
+            circle_fa17703836b8e83a2db14c2a94cb5427.bindTooltip(
+                `<div>
+                     Sebright School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0e92c103f82c2d1692403fa2e303ae5a = L.circle(
+                [51.5349061, -0.0863842],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_4d1ba3cd287a1d4ef38c5b51c6c4bde6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eba9f50c0dee573f49bacb40002ada0 = $(`<div id="html_1eba9f50c0dee573f49bacb40002ada0" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_4d1ba3cd287a1d4ef38c5b51c6c4bde6.setContent(html_1eba9f50c0dee573f49bacb40002ada0);
+            
+        
+
+        circle_0e92c103f82c2d1692403fa2e303ae5a.bindPopup(popup_4d1ba3cd287a1d4ef38c5b51c6c4bde6)
+        ;
+
+        
+    
+    
+            circle_0e92c103f82c2d1692403fa2e303ae5a.bindTooltip(
+                `<div>
+                     Shoreditch Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b3415cd1b71951d0b04879884ffd1222 = L.circle(
+                [51.5531421, -0.0343165],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_9cf484e7bf88fd791eadf0f900aebb23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_386bd57a153f07ba36ee2606c311b7c9 = $(`<div id="html_386bd57a153f07ba36ee2606c311b7c9" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_9cf484e7bf88fd791eadf0f900aebb23.setContent(html_386bd57a153f07ba36ee2606c311b7c9);
+            
+        
+
+        circle_b3415cd1b71951d0b04879884ffd1222.bindPopup(popup_9cf484e7bf88fd791eadf0f900aebb23)
+        ;
+
+        
+    
+    
+            circle_b3415cd1b71951d0b04879884ffd1222.bindTooltip(
+                `<div>
+                     Kingsmead Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8b36f6c20ff422f05c926658975f30f3 = L.circle(
+                [51.5704085, -0.0749546],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_2508980555319de8d3f03f7acc33e455 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a09a81ee12e69930747a9f74ffb85f4 = $(`<div id="html_6a09a81ee12e69930747a9f74ffb85f4" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_2508980555319de8d3f03f7acc33e455.setContent(html_6a09a81ee12e69930747a9f74ffb85f4);
+            
+        
+
+        circle_8b36f6c20ff422f05c926658975f30f3.bindPopup(popup_2508980555319de8d3f03f7acc33e455)
+        ;
+
+        
+    
+    
+            circle_8b36f6c20ff422f05c926658975f30f3.bindTooltip(
+                `<div>
+                     Holmleigh Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a73ca2c69479f2be0cff40b73b77e202 = L.circle(
+                [51.5644404, -0.082878],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_60619973ea86711f0b7dc2315ae2a537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c8d72f025530da1b90a039e52a87125 = $(`<div id="html_4c8d72f025530da1b90a039e52a87125" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_60619973ea86711f0b7dc2315ae2a537.setContent(html_4c8d72f025530da1b90a039e52a87125);
+            
+        
+
+        circle_a73ca2c69479f2be0cff40b73b77e202.bindPopup(popup_60619973ea86711f0b7dc2315ae2a537)
+        ;
+
+        
+    
+    
+            circle_a73ca2c69479f2be0cff40b73b77e202.bindTooltip(
+                `<div>
+                     Grazebrook Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9797fe00a31514195686d2b6a03c58db = L.circle(
+                [51.5570672, -0.040077],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d61436ab56bfd096f6778fbcee8076ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79805afcefcdf89e4e84cffd462eb60f = $(`<div id="html_79805afcefcdf89e4e84cffd462eb60f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d61436ab56bfd096f6778fbcee8076ce.setContent(html_79805afcefcdf89e4e84cffd462eb60f);
+            
+        
+
+        circle_9797fe00a31514195686d2b6a03c58db.bindPopup(popup_d61436ab56bfd096f6778fbcee8076ce)
+        ;
+
+        
+    
+    
+            circle_9797fe00a31514195686d2b6a03c58db.bindTooltip(
+                `<div>
+                     Mandeville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a0f9c04c2c44bfdf5e7d3fb1556b81a5 = L.circle(
+                [51.4945433, -0.2063572],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d9df8bbc6851c9c499a92c48f6853719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7b54fdeef4ffb509e81ed88426fc4b6 = $(`<div id="html_d7b54fdeef4ffb509e81ed88426fc4b6" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d9df8bbc6851c9c499a92c48f6853719.setContent(html_d7b54fdeef4ffb509e81ed88426fc4b6);
+            
+        
+
+        circle_a0f9c04c2c44bfdf5e7d3fb1556b81a5.bindPopup(popup_d9df8bbc6851c9c499a92c48f6853719)
+        ;
+
+        
+    
+    
+            circle_a0f9c04c2c44bfdf5e7d3fb1556b81a5.bindTooltip(
+                `<div>
+                     Avonmore Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1e1e8be2a72c406265dcb6a76b784316 = L.circle(
+                [51.5625094, -0.1009084],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_ac68a660eb85e3269e3b35de4136467c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1ff0564d415788bfa08d1160909a43 = $(`<div id="html_bc1ff0564d415788bfa08d1160909a43" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_ac68a660eb85e3269e3b35de4136467c.setContent(html_bc1ff0564d415788bfa08d1160909a43);
+            
+        
+
+        circle_1e1e8be2a72c406265dcb6a76b784316.bindPopup(popup_ac68a660eb85e3269e3b35de4136467c)
+        ;
+
+        
+    
+    
+            circle_1e1e8be2a72c406265dcb6a76b784316.bindTooltip(
+                `<div>
+                     Ambler Primary School and Children's Centre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7479e58287622d497b4c35bd709994f3 = L.circle(
+                [51.5606039, -0.098785],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d8010f1395ffb3cad1e07a012d1f08d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_630d6023139d1f7cad48ce9a81ba40bc = $(`<div id="html_630d6023139d1f7cad48ce9a81ba40bc" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d8010f1395ffb3cad1e07a012d1f08d8.setContent(html_630d6023139d1f7cad48ce9a81ba40bc);
+            
+        
+
+        circle_7479e58287622d497b4c35bd709994f3.bindPopup(popup_d8010f1395ffb3cad1e07a012d1f08d8)
+        ;
+
+        
+    
+    
+            circle_7479e58287622d497b4c35bd709994f3.bindTooltip(
+                `<div>
+                     Gillespie Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a62d8b32c51e256fc21e6a0cd3593f49 = L.circle(
+                [51.5310706, -0.1181849],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5f88e7da7efec2f5fadb8a7ca643a107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79894ee003d36d945c4a9a65a73a984d = $(`<div id="html_79894ee003d36d945c4a9a65a73a984d" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5f88e7da7efec2f5fadb8a7ca643a107.setContent(html_79894ee003d36d945c4a9a65a73a984d);
+            
+        
+
+        circle_a62d8b32c51e256fc21e6a0cd3593f49.bindPopup(popup_5f88e7da7efec2f5fadb8a7ca643a107)
+        ;
+
+        
+    
+    
+            circle_a62d8b32c51e256fc21e6a0cd3593f49.bindTooltip(
+                `<div>
+                     Winton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e7cde4298161fe50321efd3366870508 = L.circle(
+                [51.56107309999999, -0.1298638],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5454d07eba7befccef812c23951bfdbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1db5f0f58e1f90ace75184406623753 = $(`<div id="html_a1db5f0f58e1f90ace75184406623753" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5454d07eba7befccef812c23951bfdbe.setContent(html_a1db5f0f58e1f90ace75184406623753);
+            
+        
+
+        circle_e7cde4298161fe50321efd3366870508.bindPopup(popup_5454d07eba7befccef812c23951bfdbe)
+        ;
+
+        
+    
+    
+            circle_e7cde4298161fe50321efd3366870508.bindTooltip(
+                `<div>
+                     Yerbury Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cfb88a57d3b2cb1aaa2d30751cf6348c = L.circle(
+                [51.514436, -0.2041344],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_925130305c754c907e6609ab886448e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76283eb86ad5261754fe10a83cbae3b7 = $(`<div id="html_76283eb86ad5261754fe10a83cbae3b7" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_925130305c754c907e6609ab886448e9.setContent(html_76283eb86ad5261754fe10a83cbae3b7);
+            
+        
+
+        circle_cfb88a57d3b2cb1aaa2d30751cf6348c.bindPopup(popup_925130305c754c907e6609ab886448e9)
+        ;
+
+        
+    
+    
+            circle_cfb88a57d3b2cb1aaa2d30751cf6348c.bindTooltip(
+                `<div>
+                     Colville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e22e2cfb128e808b8203fda85dc22c5d = L.circle(
+                [51.5072602, -0.1970037],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_c959ab3adc1673537bc2ac0d3992c89d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9991bad74f323952c47efb4a18d0d4f = $(`<div id="html_a9991bad74f323952c47efb4a18d0d4f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_c959ab3adc1673537bc2ac0d3992c89d.setContent(html_a9991bad74f323952c47efb4a18d0d4f);
+            
+        
+
+        circle_e22e2cfb128e808b8203fda85dc22c5d.bindPopup(popup_c959ab3adc1673537bc2ac0d3992c89d)
+        ;
+
+        
+    
+    
+            circle_e22e2cfb128e808b8203fda85dc22c5d.bindTooltip(
+                `<div>
+                     Fox Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7bcaae5e924ed65832fb12ded2d397e7 = L.circle(
+                [51.5155692, -0.212138],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_64a5b1adb13813b3a7944c716b7796ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7412df71f152e634a34fe90ed5e2a4c = $(`<div id="html_b7412df71f152e634a34fe90ed5e2a4c" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_64a5b1adb13813b3a7944c716b7796ec.setContent(html_b7412df71f152e634a34fe90ed5e2a4c);
+            
+        
+
+        circle_7bcaae5e924ed65832fb12ded2d397e7.bindPopup(popup_64a5b1adb13813b3a7944c716b7796ec)
+        ;
+
+        
+    
+    
+            circle_7bcaae5e924ed65832fb12ded2d397e7.bindTooltip(
+                `<div>
+                     Thomas Jones Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_129506f87e35ea1ee40e04089ad8f2cb = L.circle(
+                [51.4444089, -0.1427906],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_155136dd68c42e55721dc9101a62ed26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2ed36932a82c433e6ed498d7a12dee8 = $(`<div id="html_f2ed36932a82c433e6ed498d7a12dee8" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_155136dd68c42e55721dc9101a62ed26.setContent(html_f2ed36932a82c433e6ed498d7a12dee8);
+            
+        
+
+        circle_129506f87e35ea1ee40e04089ad8f2cb.bindPopup(popup_155136dd68c42e55721dc9101a62ed26)
+        ;
+
+        
+    
+    
+            circle_129506f87e35ea1ee40e04089ad8f2cb.bindTooltip(
+                `<div>
+                     Henry Cavendish Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bc8554032f03954e22d9a3e1a6240eb9 = L.circle(
+                [51.4430867, -0.1375477],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_c56681cee025656f2e8fdbaf4bd34147 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58304342c0de31466c63988b8f70fff2 = $(`<div id="html_58304342c0de31466c63988b8f70fff2" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_c56681cee025656f2e8fdbaf4bd34147.setContent(html_58304342c0de31466c63988b8f70fff2);
+            
+        
+
+        circle_bc8554032f03954e22d9a3e1a6240eb9.bindPopup(popup_c56681cee025656f2e8fdbaf4bd34147)
+        ;
+
+        
+    
+    
+            circle_bc8554032f03954e22d9a3e1a6240eb9.bindTooltip(
+                `<div>
+                     Telferscot Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d2ce1242b0acd2f642da57e67e232173 = L.circle(
+                [51.4783949, -0.1265879],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_27dbb4a467834cf38f9f257a1bce9fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23bb6fc2e915e3ac3fd89e9bc162be6a = $(`<div id="html_23bb6fc2e915e3ac3fd89e9bc162be6a" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_27dbb4a467834cf38f9f257a1bce9fd2.setContent(html_23bb6fc2e915e3ac3fd89e9bc162be6a);
+            
+        
+
+        circle_d2ce1242b0acd2f642da57e67e232173.bindPopup(popup_27dbb4a467834cf38f9f257a1bce9fd2)
+        ;
+
+        
+    
+    
+            circle_d2ce1242b0acd2f642da57e67e232173.bindTooltip(
+                `<div>
+                     Herbert Morrison Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_874cf481794af0e60ab4159fcadcf6a4 = L.circle(
+                [51.47631, -0.1149692],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d3c15e9e024a76b72f11217f6a50e168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8a3ebee729084241c963257ed0236e = $(`<div id="html_dc8a3ebee729084241c963257ed0236e" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d3c15e9e024a76b72f11217f6a50e168.setContent(html_dc8a3ebee729084241c963257ed0236e);
+            
+        
+
+        circle_874cf481794af0e60ab4159fcadcf6a4.bindPopup(popup_d3c15e9e024a76b72f11217f6a50e168)
+        ;
+
+        
+    
+    
+            circle_874cf481794af0e60ab4159fcadcf6a4.bindTooltip(
+                `<div>
+                     Reay Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8431b7ec65f8197f3bb9a6e8129be7f = L.circle(
+                [51.4647935, -0.0381367],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_6e5a0e3d09299166b4b98ff8edc73018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d206402ee830a09f6edc5932c4687d8e = $(`<div id="html_d206402ee830a09f6edc5932c4687d8e" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_6e5a0e3d09299166b4b98ff8edc73018.setContent(html_d206402ee830a09f6edc5932c4687d8e);
+            
+        
+
+        circle_f8431b7ec65f8197f3bb9a6e8129be7f.bindPopup(popup_6e5a0e3d09299166b4b98ff8edc73018)
+        ;
+
+        
+    
+    
+            circle_f8431b7ec65f8197f3bb9a6e8129be7f.bindTooltip(
+                `<div>
+                     John Stainer Community Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87a356c0f9eda37e0c7aadfc3f20b7ef = L.circle(
+                [51.4395049, -0.032088],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5597f74bd291b1af40b47bbf31059b76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d8ff7ae85660d323a77b7a42ab20f6 = $(`<div id="html_04d8ff7ae85660d323a77b7a42ab20f6" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5597f74bd291b1af40b47bbf31059b76.setContent(html_04d8ff7ae85660d323a77b7a42ab20f6);
+            
+        
+
+        circle_87a356c0f9eda37e0c7aadfc3f20b7ef.bindPopup(popup_5597f74bd291b1af40b47bbf31059b76)
+        ;
+
+        
+    
+    
+            circle_87a356c0f9eda37e0c7aadfc3f20b7ef.bindTooltip(
+                `<div>
+                     Rathfern Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_61899c9d07a35434d9d1158b3fbab87f = L.circle(
+                [51.4378966, -0.0406329],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_909d45dfe5ab65350c2706abffb4e4c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9aeac53a1a2a934bb673f17822eb882a = $(`<div id="html_9aeac53a1a2a934bb673f17822eb882a" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_909d45dfe5ab65350c2706abffb4e4c1.setContent(html_9aeac53a1a2a934bb673f17822eb882a);
+            
+        
+
+        circle_61899c9d07a35434d9d1158b3fbab87f.bindPopup(popup_909d45dfe5ab65350c2706abffb4e4c1)
+        ;
+
+        
+    
+    
+            circle_61899c9d07a35434d9d1158b3fbab87f.bindTooltip(
+                `<div>
+                     Kilmorie Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6bc0ebe4e4704a86c83079285df74a4b = L.circle(
+                [51.4896369, -0.100822],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_818edac1829c118ff14732a3329c7d0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_028b8030b1706ac536a758282c40723a = $(`<div id="html_028b8030b1706ac536a758282c40723a" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_818edac1829c118ff14732a3329c7d0b.setContent(html_028b8030b1706ac536a758282c40723a);
+            
+        
+
+        circle_6bc0ebe4e4704a86c83079285df74a4b.bindPopup(popup_818edac1829c118ff14732a3329c7d0b)
+        ;
+
+        
+    
+    
+            circle_6bc0ebe4e4704a86c83079285df74a4b.bindTooltip(
+                `<div>
+                     Crampton Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d20fcfe84584bab8d0b15446daa77276 = L.circle(
+                [51.4851934, -0.0548114],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_ee52f09eabd222e0e1ef7966ac521bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b0c6b6ada87b7e86cafca1f0f7c2637 = $(`<div id="html_8b0c6b6ada87b7e86cafca1f0f7c2637" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_ee52f09eabd222e0e1ef7966ac521bb6.setContent(html_8b0c6b6ada87b7e86cafca1f0f7c2637);
+            
+        
+
+        circle_d20fcfe84584bab8d0b15446daa77276.bindPopup(popup_ee52f09eabd222e0e1ef7966ac521bb6)
+        ;
+
+        
+    
+    
+            circle_d20fcfe84584bab8d0b15446daa77276.bindTooltip(
+                `<div>
+                     Ilderton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6b1d1e6f27b6e2a51fcd3a512e14cd91 = L.circle(
+                [51.4822236, -0.1003936],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_50ddef9749c298dd574ee06ebc79e8bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b95f811e6b6f088d9ceb346be2e4a95 = $(`<div id="html_4b95f811e6b6f088d9ceb346be2e4a95" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_50ddef9749c298dd574ee06ebc79e8bc.setContent(html_4b95f811e6b6f088d9ceb346be2e4a95);
+            
+        
+
+        circle_6b1d1e6f27b6e2a51fcd3a512e14cd91.bindPopup(popup_50ddef9749c298dd574ee06ebc79e8bc)
+        ;
+
+        
+    
+    
+            circle_6b1d1e6f27b6e2a51fcd3a512e14cd91.bindTooltip(
+                `<div>
+                     John Ruskin Primary School and Language Classes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3307202cbd8e021f9e2bffdde26eafaf = L.circle(
+                [51.4863483, -0.0680225],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_8948f70e4698f5429029dab6afe70264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_771650c26b23fe3c8d719cf02729da39 = $(`<div id="html_771650c26b23fe3c8d719cf02729da39" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_8948f70e4698f5429029dab6afe70264.setContent(html_771650c26b23fe3c8d719cf02729da39);
+            
+        
+
+        circle_3307202cbd8e021f9e2bffdde26eafaf.bindPopup(popup_8948f70e4698f5429029dab6afe70264)
+        ;
+
+        
+    
+    
+            circle_3307202cbd8e021f9e2bffdde26eafaf.bindTooltip(
+                `<div>
+                     Phoenix Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c26908f732edc4ce6a83dbf4931ee599 = L.circle(
+                [51.5292282, -0.0516875],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_cacddf2fb433990cc56e9bb18f832cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c402f9b4c49d263f65551edfc67dc3f = $(`<div id="html_2c402f9b4c49d263f65551edfc67dc3f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_cacddf2fb433990cc56e9bb18f832cd2.setContent(html_2c402f9b4c49d263f65551edfc67dc3f);
+            
+        
+
+        circle_c26908f732edc4ce6a83dbf4931ee599.bindPopup(popup_cacddf2fb433990cc56e9bb18f832cd2)
+        ;
+
+        
+    
+    
+            circle_c26908f732edc4ce6a83dbf4931ee599.bindTooltip(
+                `<div>
+                     Globe Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bd29f3e69ca37f6f0de11b0c24a9758f = L.circle(
+                [51.5140148, -0.0460367],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_788959bf84cf859d9910e274e24b0b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6241cc1b6cb35a108af165ff39a3995 = $(`<div id="html_c6241cc1b6cb35a108af165ff39a3995" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_788959bf84cf859d9910e274e24b0b1f.setContent(html_c6241cc1b6cb35a108af165ff39a3995);
+            
+        
+
+        circle_bd29f3e69ca37f6f0de11b0c24a9758f.bindPopup(popup_788959bf84cf859d9910e274e24b0b1f)
+        ;
+
+        
+    
+    
+            circle_bd29f3e69ca37f6f0de11b0c24a9758f.bindTooltip(
+                `<div>
+                     Marion Richardson Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_875653b63b1251e771207f43b397bcbc = L.circle(
+                [51.5121198, -0.0199999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_b2d73fb94a7cfe3462a6c9f0329d78b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bf66111518fa9df3f4c431159a00555 = $(`<div id="html_2bf66111518fa9df3f4c431159a00555" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_b2d73fb94a7cfe3462a6c9f0329d78b6.setContent(html_2bf66111518fa9df3f4c431159a00555);
+            
+        
+
+        circle_875653b63b1251e771207f43b397bcbc.bindPopup(popup_b2d73fb94a7cfe3462a6c9f0329d78b6)
+        ;
+
+        
+    
+    
+            circle_875653b63b1251e771207f43b397bcbc.bindTooltip(
+                `<div>
+                     Mayflower Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5793e5d83df4239d801b1abe2a72a0c8 = L.circle(
+                [51.53282859999999, -0.0551294],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_e201ab3b1f9ccc9f7259c3f5827ac0f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8087355f43726b131a7e62905ee334 = $(`<div id="html_9a8087355f43726b131a7e62905ee334" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_e201ab3b1f9ccc9f7259c3f5827ac0f2.setContent(html_9a8087355f43726b131a7e62905ee334);
+            
+        
+
+        circle_5793e5d83df4239d801b1abe2a72a0c8.bindPopup(popup_e201ab3b1f9ccc9f7259c3f5827ac0f2)
+        ;
+
+        
+    
+    
+            circle_5793e5d83df4239d801b1abe2a72a0c8.bindTooltip(
+                `<div>
+                     Mowlem Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f884bf39fbfdc3065514be6fda54bba7 = L.circle(
+                [51.5184998, -0.0126355],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_7275eb82766cb07c23a89bfd5058fd0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77c71308201d771badf098783d6b3792 = $(`<div id="html_77c71308201d771badf098783d6b3792" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_7275eb82766cb07c23a89bfd5058fd0e.setContent(html_77c71308201d771badf098783d6b3792);
+            
+        
+
+        circle_f884bf39fbfdc3065514be6fda54bba7.bindPopup(popup_7275eb82766cb07c23a89bfd5058fd0e)
+        ;
+
+        
+    
+    
+            circle_f884bf39fbfdc3065514be6fda54bba7.bindTooltip(
+                `<div>
+                     Manorfield Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_40efebb40551e7192c212afe60ee6397 = L.circle(
+                [51.5238785, -0.059273],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_828c897a8617510b38712bb1ec4792dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa563b50a4f8f2175c6d0aa18a0c985 = $(`<div id="html_faa563b50a4f8f2175c6d0aa18a0c985" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_828c897a8617510b38712bb1ec4792dd.setContent(html_faa563b50a4f8f2175c6d0aa18a0c985);
+            
+        
+
+        circle_40efebb40551e7192c212afe60ee6397.bindPopup(popup_828c897a8617510b38712bb1ec4792dd)
+        ;
+
+        
+    
+    
+            circle_40efebb40551e7192c212afe60ee6397.bindTooltip(
+                `<div>
+                     Stewart Headlam Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6656c9688134fbc0a3568909cd697d17 = L.circle(
+                [51.5270573, -0.0747053],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_96d0bfae026d04aabacfeab2203a0c20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2ee11ee250c20498e9239b8cafea31d = $(`<div id="html_b2ee11ee250c20498e9239b8cafea31d" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_96d0bfae026d04aabacfeab2203a0c20.setContent(html_b2ee11ee250c20498e9239b8cafea31d);
+            
+        
+
+        circle_6656c9688134fbc0a3568909cd697d17.bindPopup(popup_96d0bfae026d04aabacfeab2203a0c20)
+        ;
+
+        
+    
+    
+            circle_6656c9688134fbc0a3568909cd697d17.bindTooltip(
+                `<div>
+                     Virginia Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eac5736af1a4eaa95130646d89873838 = L.circle(
+                [51.5256801, -0.0249473],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_371f72797a25106b82d4933bceb6e15a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87dec7267cb6e6f15a500426c4703dc7 = $(`<div id="html_87dec7267cb6e6f15a500426c4703dc7" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_371f72797a25106b82d4933bceb6e15a.setContent(html_87dec7267cb6e6f15a500426c4703dc7);
+            
+        
+
+        circle_eac5736af1a4eaa95130646d89873838.bindPopup(popup_371f72797a25106b82d4933bceb6e15a)
+        ;
+
+        
+    
+    
+            circle_eac5736af1a4eaa95130646d89873838.bindTooltip(
+                `<div>
+                     Wellington Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1b1f892cc32be1b24157018199395fae = L.circle(
+                [51.5102644, -0.0095487],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_80714701d3e0b04e10ee6e31cb2418dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4d465848d614431bd0dfa54c9f565d5 = $(`<div id="html_a4d465848d614431bd0dfa54c9f565d5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_80714701d3e0b04e10ee6e31cb2418dd.setContent(html_a4d465848d614431bd0dfa54c9f565d5);
+            
+        
+
+        circle_1b1f892cc32be1b24157018199395fae.bindPopup(popup_80714701d3e0b04e10ee6e31cb2418dd)
+        ;
+
+        
+    
+    
+            circle_1b1f892cc32be1b24157018199395fae.bindTooltip(
+                `<div>
+                     Woolmore Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_299400bfe4ec83daa86638d492319410 = L.circle(
+                [51.52190539999999, -0.0658711],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_226ccc5e6f1a2a29c9325f6999f7b1cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa685e398ea2ebebb4d4f4743ba55b5 = $(`<div id="html_ffa685e398ea2ebebb4d4f4743ba55b5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_226ccc5e6f1a2a29c9325f6999f7b1cd.setContent(html_ffa685e398ea2ebebb4d4f4743ba55b5);
+            
+        
+
+        circle_299400bfe4ec83daa86638d492319410.bindPopup(popup_226ccc5e6f1a2a29c9325f6999f7b1cd)
+        ;
+
+        
+    
+    
+            circle_299400bfe4ec83daa86638d492319410.bindTooltip(
+                `<div>
+                     Thomas Buxton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_64ca060bb021d0f760a06923eeeb0229 = L.circle(
+                [51.5127579, -0.0588443],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d90bd80ab7325781d1d8e2c3be9b7be7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c46f8d982740090d94325b8c9cbac431 = $(`<div id="html_c46f8d982740090d94325b8c9cbac431" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d90bd80ab7325781d1d8e2c3be9b7be7.setContent(html_c46f8d982740090d94325b8c9cbac431);
+            
+        
+
+        circle_64ca060bb021d0f760a06923eeeb0229.bindPopup(popup_d90bd80ab7325781d1d8e2c3be9b7be7)
+        ;
+
+        
+    
+    
+            circle_64ca060bb021d0f760a06923eeeb0229.bindTooltip(
+                `<div>
+                     Bigland Green Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6aa817f7d308f63c33906f1e63e530c5 = L.circle(
+                [51.4412996, -0.1850462],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_7b30677bfe4682f7abbfd5df5f7b09e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58fe8dfaef59f6e16d4f513c555ff638 = $(`<div id="html_58fe8dfaef59f6e16d4f513c555ff638" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_7b30677bfe4682f7abbfd5df5f7b09e9.setContent(html_58fe8dfaef59f6e16d4f513c555ff638);
+            
+        
+
+        circle_6aa817f7d308f63c33906f1e63e530c5.bindPopup(popup_7b30677bfe4682f7abbfd5df5f7b09e9)
+        ;
+
+        
+    
+    
+            circle_6aa817f7d308f63c33906f1e63e530c5.bindTooltip(
+                `<div>
+                     Earlsfield Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b9cfe369ab891cffac2015e6628b8176 = L.circle(
+                [51.4471085, -0.2035598],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_c6639584f7a4c6b2d5323fa1e599dafb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_882596fdd1d50551a11480b08eca68d9 = $(`<div id="html_882596fdd1d50551a11480b08eca68d9" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_c6639584f7a4c6b2d5323fa1e599dafb.setContent(html_882596fdd1d50551a11480b08eca68d9);
+            
+        
+
+        circle_b9cfe369ab891cffac2015e6628b8176.bindPopup(popup_c6639584f7a4c6b2d5323fa1e599dafb)
+        ;
+
+        
+    
+    
+            circle_b9cfe369ab891cffac2015e6628b8176.bindTooltip(
+                `<div>
+                     Sheringdale Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c78cb98d010e20b8954573a00adfd1dc = L.circle(
+                [51.4494847, -0.2161583],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_0cc0f6abb7a6ea77d18bab3193189602 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f36b301d5613f1e3b3bcb38c66869a5 = $(`<div id="html_9f36b301d5613f1e3b3bcb38c66869a5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_0cc0f6abb7a6ea77d18bab3193189602.setContent(html_9f36b301d5613f1e3b3bcb38c66869a5);
+            
+        
+
+        circle_c78cb98d010e20b8954573a00adfd1dc.bindPopup(popup_0cc0f6abb7a6ea77d18bab3193189602)
+        ;
+
+        
+    
+    
+            circle_c78cb98d010e20b8954573a00adfd1dc.bindTooltip(
+                `<div>
+                     Ronald Ross Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ffa368083b0fe0cf45ecc0a3a909d992 = L.circle(
+                [51.5011781, -0.2566617],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_fc1b6d616f529f258606b1ffbf58cc34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc5c3d37e50de11b0fb1fcf3f68347fc = $(`<div id="html_dc5c3d37e50de11b0fb1fcf3f68347fc" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_fc1b6d616f529f258606b1ffbf58cc34.setContent(html_dc5c3d37e50de11b0fb1fcf3f68347fc);
+            
+        
+
+        circle_ffa368083b0fe0cf45ecc0a3a909d992.bindPopup(popup_fc1b6d616f529f258606b1ffbf58cc34)
+        ;
+
+        
+    
+    
+            circle_ffa368083b0fe0cf45ecc0a3a909d992.bindTooltip(
+                `<div>
+                     Southfield Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0622bbaf2523854ad74e7c83e341741d = L.circle(
+                [51.5013074, -0.3216364],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_28600cec8a36bad290586cb4280870f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c191de169b1f307f9367a1ad2faf50 = $(`<div id="html_29c191de169b1f307f9367a1ad2faf50" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_28600cec8a36bad290586cb4280870f6.setContent(html_29c191de169b1f307f9367a1ad2faf50);
+            
+        
+
+        circle_0622bbaf2523854ad74e7c83e341741d.bindPopup(popup_28600cec8a36bad290586cb4280870f6)
+        ;
+
+        
+    
+    
+            circle_0622bbaf2523854ad74e7c83e341741d.bindTooltip(
+                `<div>
+                     Fielding Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_728cf8831ea0dee6c7e2997cee9ebd2b = L.circle(
+                [51.505195, -0.3305608],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_2d22c8bc197c3b82530167d22b650ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f53d3db35113f770b443693a52747534 = $(`<div id="html_f53d3db35113f770b443693a52747534" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_2d22c8bc197c3b82530167d22b650ab2.setContent(html_f53d3db35113f770b443693a52747534);
+            
+        
+
+        circle_728cf8831ea0dee6c7e2997cee9ebd2b.bindPopup(popup_2d22c8bc197c3b82530167d22b650ab2)
+        ;
+
+        
+    
+    
+            circle_728cf8831ea0dee6c7e2997cee9ebd2b.bindTooltip(
+                `<div>
+                     Oaklands Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c7533b12370349a24b2f1d4546e92790 = L.circle(
+                [51.6063854, -0.1234867],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_e37c0cab30a922fd38459418203bc0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a21804bf299c3d57687015ebb550077 = $(`<div id="html_4a21804bf299c3d57687015ebb550077" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_e37c0cab30a922fd38459418203bc0c1.setContent(html_4a21804bf299c3d57687015ebb550077);
+            
+        
+
+        circle_c7533b12370349a24b2f1d4546e92790.bindPopup(popup_e37c0cab30a922fd38459418203bc0c1)
+        ;
+
+        
+    
+    
+            circle_c7533b12370349a24b2f1d4546e92790.bindTooltip(
+                `<div>
+                     Bounds Green Infant School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2ea6c59cfc0d9c11e6fd60b6d43bf1e9 = L.circle(
+                [51.5806205, -0.1015746],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_12c2b73b7d5f3ac3a97b43e73d1c82a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c975a38e1e68eeff7d4d5fa8e654fd9 = $(`<div id="html_5c975a38e1e68eeff7d4d5fa8e654fd9" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_12c2b73b7d5f3ac3a97b43e73d1c82a4.setContent(html_5c975a38e1e68eeff7d4d5fa8e654fd9);
+            
+        
+
+        circle_2ea6c59cfc0d9c11e6fd60b6d43bf1e9.bindPopup(popup_12c2b73b7d5f3ac3a97b43e73d1c82a4)
+        ;
+
+        
+    
+    
+            circle_2ea6c59cfc0d9c11e6fd60b6d43bf1e9.bindTooltip(
+                `<div>
+                     South Harringay Junior School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_73d154f04ab36c9504c578c97a9ef58c = L.circle(
+                [51.5806459, -0.0675529],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_f51fb3323d0580d3d68d106486ff2de9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c85e380321d8ae80264a8451a0e5b390 = $(`<div id="html_c85e380321d8ae80264a8451a0e5b390" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_f51fb3323d0580d3d68d106486ff2de9.setContent(html_c85e380321d8ae80264a8451a0e5b390);
+            
+        
+
+        circle_73d154f04ab36c9504c578c97a9ef58c.bindPopup(popup_f51fb3323d0580d3d68d106486ff2de9)
+        ;
+
+        
+    
+    
+            circle_73d154f04ab36c9504c578c97a9ef58c.bindTooltip(
+                `<div>
+                     Crowland Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_22485f3d7210002e9f3b5674c50b6b3c = L.circle(
+                [51.5794211, -0.1114178],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d20cb860547017f11e67275bfb082660 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_490611583ec35753581932f67b28d3ff = $(`<div id="html_490611583ec35753581932f67b28d3ff" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d20cb860547017f11e67275bfb082660.setContent(html_490611583ec35753581932f67b28d3ff);
+            
+        
+
+        circle_22485f3d7210002e9f3b5674c50b6b3c.bindPopup(popup_d20cb860547017f11e67275bfb082660)
+        ;
+
+        
+    
+    
+            circle_22485f3d7210002e9f3b5674c50b6b3c.bindTooltip(
+                `<div>
+                     Weston Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98920371b3c5a77fcac493c3b61a768b = L.circle(
+                [51.5955897, -0.0815069],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_44504aa038a04d1861bfbb5203a0de4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5403888a9ec8aee4b233eedba577fe4b = $(`<div id="html_5403888a9ec8aee4b233eedba577fe4b" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_44504aa038a04d1861bfbb5203a0de4b.setContent(html_5403888a9ec8aee4b233eedba577fe4b);
+            
+        
+
+        circle_98920371b3c5a77fcac493c3b61a768b.bindPopup(popup_44504aa038a04d1861bfbb5203a0de4b)
+        ;
+
+        
+    
+    
+            circle_98920371b3c5a77fcac493c3b61a768b.bindTooltip(
+                `<div>
+                     The Willow Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9bea4ff1d1e5252cfe681ff3338631b5 = L.circle(
+                [51.4101765, -0.2018701],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_a225c63813c16033b8abff0b2cf97f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b94c4ae6a1672e64d82d5d8b0ce021a4 = $(`<div id="html_b94c4ae6a1672e64d82d5d8b0ce021a4" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_a225c63813c16033b8abff0b2cf97f24.setContent(html_b94c4ae6a1672e64d82d5d8b0ce021a4);
+            
+        
+
+        circle_9bea4ff1d1e5252cfe681ff3338631b5.bindPopup(popup_a225c63813c16033b8abff0b2cf97f24)
+        ;
+
+        
+    
+    
+            circle_9bea4ff1d1e5252cfe681ff3338631b5.bindTooltip(
+                `<div>
+                     Merton Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1a510ba40ae8b22c3a5eb41de115ea52 = L.circle(
+                [51.4384859, -0.1970127],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_4be7488be9a3fd24fa03096cc06a299b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f968a7dd0ec7fdc5fdf8f3f4ec215ca6 = $(`<div id="html_f968a7dd0ec7fdc5fdf8f3f4ec215ca6" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_4be7488be9a3fd24fa03096cc06a299b.setContent(html_f968a7dd0ec7fdc5fdf8f3f4ec215ca6);
+            
+        
+
+        circle_1a510ba40ae8b22c3a5eb41de115ea52.bindPopup(popup_4be7488be9a3fd24fa03096cc06a299b)
+        ;
+
+        
+    
+    
+            circle_1a510ba40ae8b22c3a5eb41de115ea52.bindTooltip(
+                `<div>
+                     Wimbledon Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1891da6dfc0cf82d5ba977b4f6a1cefc = L.circle(
+                [51.5246898, 0.0453448],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_ace4fb033fea864be790dee49ab419f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ccbce6b2976fcce35881cf5e9dab28e = $(`<div id="html_8ccbce6b2976fcce35881cf5e9dab28e" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_ace4fb033fea864be790dee49ab419f4.setContent(html_8ccbce6b2976fcce35881cf5e9dab28e);
+            
+        
+
+        circle_1891da6dfc0cf82d5ba977b4f6a1cefc.bindPopup(popup_ace4fb033fea864be790dee49ab419f4)
+        ;
+
+        
+    
+    
+            circle_1891da6dfc0cf82d5ba977b4f6a1cefc.bindTooltip(
+                `<div>
+                     Brampton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_94e1bff645ff0a3e9af9c0afa6e5212a = L.circle(
+                [51.51640829999999, 0.0199066],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_8559bd2004ab16b43c2b74b689d88f2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c02d9218487ce2dd160e1863247ad64 = $(`<div id="html_3c02d9218487ce2dd160e1863247ad64" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_8559bd2004ab16b43c2b74b689d88f2b.setContent(html_3c02d9218487ce2dd160e1863247ad64);
+            
+        
+
+        circle_94e1bff645ff0a3e9af9c0afa6e5212a.bindPopup(popup_8559bd2004ab16b43c2b74b689d88f2b)
+        ;
+
+        
+    
+    
+            circle_94e1bff645ff0a3e9af9c0afa6e5212a.bindTooltip(
+                `<div>
+                     Keir Hardie Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3c1cbcc07712779385775d8ca0fef783 = L.circle(
+                [51.546672, 0.0453377],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_88dad299883c5c32d3510c35aca4bc5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d0c151ad40662af3d6fe57531097ac9 = $(`<div id="html_3d0c151ad40662af3d6fe57531097ac9" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_88dad299883c5c32d3510c35aca4bc5e.setContent(html_3d0c151ad40662af3d6fe57531097ac9);
+            
+        
+
+        circle_3c1cbcc07712779385775d8ca0fef783.bindPopup(popup_88dad299883c5c32d3510c35aca4bc5e)
+        ;
+
+        
+    
+    
+            circle_3c1cbcc07712779385775d8ca0fef783.bindTooltip(
+                `<div>
+                     Essex Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4621e9d2ef2cee1b67e93c733fe0d6b4 = L.circle(
+                [51.4652161, -0.2543042],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_daa0f2fa6aa44e352186582c3d3922eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c05b76e89b873b54de761778f78cbe = $(`<div id="html_14c05b76e89b873b54de761778f78cbe" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_daa0f2fa6aa44e352186582c3d3922eb.setContent(html_14c05b76e89b873b54de761778f78cbe);
+            
+        
+
+        circle_4621e9d2ef2cee1b67e93c733fe0d6b4.bindPopup(popup_daa0f2fa6aa44e352186582c3d3922eb)
+        ;
+
+        
+    
+    
+            circle_4621e9d2ef2cee1b67e93c733fe0d6b4.bindTooltip(
+                `<div>
+                     East Sheen Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1585121d45df8d80d6cf1a982ab38adf = L.circle(
+                [51.4696751, -0.2521462],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_a7ea4c16100795f53f9f2bd8ec68f40b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68ac6d4b00db5a9c516686b54099c117 = $(`<div id="html_68ac6d4b00db5a9c516686b54099c117" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_a7ea4c16100795f53f9f2bd8ec68f40b.setContent(html_68ac6d4b00db5a9c516686b54099c117);
+            
+        
+
+        circle_1585121d45df8d80d6cf1a982ab38adf.bindPopup(popup_a7ea4c16100795f53f9f2bd8ec68f40b)
+        ;
+
+        
+    
+    
+            circle_1585121d45df8d80d6cf1a982ab38adf.bindTooltip(
+                `<div>
+                     Barnes Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0a8c89d9fe7267ab963d3f009c821a2b = L.circle(
+                [51.5780213, -0.0275075],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_3a81a2c4462bf05e8080ab045159399b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dbc6d00661e33c1f8d477f3e043f1fb = $(`<div id="html_5dbc6d00661e33c1f8d477f3e043f1fb" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_3a81a2c4462bf05e8080ab045159399b.setContent(html_5dbc6d00661e33c1f8d477f3e043f1fb);
+            
+        
+
+        circle_0a8c89d9fe7267ab963d3f009c821a2b.bindPopup(popup_3a81a2c4462bf05e8080ab045159399b)
+        ;
+
+        
+    
+    
+            circle_0a8c89d9fe7267ab963d3f009c821a2b.bindTooltip(
+                `<div>
+                     South Grove Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d8b3ee5eab2f9d0813d922236e407f55 = L.circle(
+                [51.5757179, -0.0648267],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_92a068d9871b4eb1cee7b91bbe91b359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8840e5ff6b36f67582789f1061cb9b8c = $(`<div id="html_8840e5ff6b36f67582789f1061cb9b8c" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_92a068d9871b4eb1cee7b91bbe91b359.setContent(html_8840e5ff6b36f67582789f1061cb9b8c);
+            
+        
+
+        circle_d8b3ee5eab2f9d0813d922236e407f55.bindPopup(popup_92a068d9871b4eb1cee7b91bbe91b359)
+        ;
+
+        
+    
+    
+            circle_d8b3ee5eab2f9d0813d922236e407f55.bindTooltip(
+                `<div>
+                     Springfield Community Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b86c26013356739043982d5d4ac91e35 = L.circle(
+                [51.5424963, -0.064822],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_8e3e33519ab01e5d2d77151df882e184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96fd47684174d8dfa04410515977db9d = $(`<div id="html_96fd47684174d8dfa04410515977db9d" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_8e3e33519ab01e5d2d77151df882e184.setContent(html_96fd47684174d8dfa04410515977db9d);
+            
+        
+
+        circle_b86c26013356739043982d5d4ac91e35.bindPopup(popup_8e3e33519ab01e5d2d77151df882e184)
+        ;
+
+        
+    
+    
+            circle_b86c26013356739043982d5d4ac91e35.bindTooltip(
+                `<div>
+                     Gayhurst Community School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_81243ea55cef53c62c1ff74e1ca43b82 = L.circle(
+                [51.52227329999999, -0.1121658],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_122c2c5dfebcf4b8e219da4abd6dc1c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c6925f35f60ec1fdaa7a4482ed7ac83 = $(`<div id="html_1c6925f35f60ec1fdaa7a4482ed7ac83" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_122c2c5dfebcf4b8e219da4abd6dc1c1.setContent(html_1c6925f35f60ec1fdaa7a4482ed7ac83);
+            
+        
+
+        circle_81243ea55cef53c62c1ff74e1ca43b82.bindPopup(popup_122c2c5dfebcf4b8e219da4abd6dc1c1)
+        ;
+
+        
+    
+    
+            circle_81243ea55cef53c62c1ff74e1ca43b82.bindTooltip(
+                `<div>
+                     Christopher Hatton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a331903f813dce965f13aac1256762b6 = L.circle(
+                [51.5464302, 0.0336452],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_1bd31030311d19dd4206713d4e8254d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a1cab8a83de10c3caf5aee064634293 = $(`<div id="html_2a1cab8a83de10c3caf5aee064634293" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_1bd31030311d19dd4206713d4e8254d2.setContent(html_2a1cab8a83de10c3caf5aee064634293);
+            
+        
+
+        circle_a331903f813dce965f13aac1256762b6.bindPopup(popup_1bd31030311d19dd4206713d4e8254d2)
+        ;
+
+        
+    
+    
+            circle_a331903f813dce965f13aac1256762b6.bindTooltip(
+                `<div>
+                     Sandringham Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_05f7fceb5a2c604f4881c856848b93f3 = L.circle(
+                [51.5621346, -0.0753155],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_1e59325c5a5ce3b708de0b045817454d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_358d6cdba8bed01855526d425982f807 = $(`<div id="html_358d6cdba8bed01855526d425982f807" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_1e59325c5a5ce3b708de0b045817454d.setContent(html_358d6cdba8bed01855526d425982f807);
+            
+        
+
+        circle_05f7fceb5a2c604f4881c856848b93f3.bindPopup(popup_1e59325c5a5ce3b708de0b045817454d)
+        ;
+
+        
+    
+    
+            circle_05f7fceb5a2c604f4881c856848b93f3.bindTooltip(
+                `<div>
+                     William Patten Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_95d598673b9bb999887feee091c474be = L.circle(
+                [51.4526242, -0.1396544],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_a0b3f5e7514ea0ae539eea29c11c3404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8eb708339ffa1d5dcbb9cd2e16f08d6 = $(`<div id="html_d8eb708339ffa1d5dcbb9cd2e16f08d6" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_a0b3f5e7514ea0ae539eea29c11c3404.setContent(html_d8eb708339ffa1d5dcbb9cd2e16f08d6);
+            
+        
+
+        circle_95d598673b9bb999887feee091c474be.bindPopup(popup_a0b3f5e7514ea0ae539eea29c11c3404)
+        ;
+
+        
+    
+    
+            circle_95d598673b9bb999887feee091c474be.bindTooltip(
+                `<div>
+                     Bonneville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_896ef1a2770656cf2e5d64d601d16f6a = L.circle(
+                [51.5273128, -0.1061503],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_66e2ac69168dc7e714339bf911e3f740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e663c3a0e1cef07c9d5612f978b9163 = $(`<div id="html_0e663c3a0e1cef07c9d5612f978b9163" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_66e2ac69168dc7e714339bf911e3f740.setContent(html_0e663c3a0e1cef07c9d5612f978b9163);
+            
+        
+
+        circle_896ef1a2770656cf2e5d64d601d16f6a.bindPopup(popup_66e2ac69168dc7e714339bf911e3f740)
+        ;
+
+        
+    
+    
+            circle_896ef1a2770656cf2e5d64d601d16f6a.bindTooltip(
+                `<div>
+                     Hugh Myddelton Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4dbafa909ab5cbdd4e4b00d413f01a19 = L.circle(
+                [51.4841695, -0.1122307],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_9c1cc006662d225791c0f4a505611125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0e7803679f13d5a605b3a6e3c255d0f = $(`<div id="html_d0e7803679f13d5a605b3a6e3c255d0f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_9c1cc006662d225791c0f4a505611125.setContent(html_d0e7803679f13d5a605b3a6e3c255d0f);
+            
+        
+
+        circle_4dbafa909ab5cbdd4e4b00d413f01a19.bindPopup(popup_9c1cc006662d225791c0f4a505611125)
+        ;
+
+        
+    
+    
+            circle_4dbafa909ab5cbdd4e4b00d413f01a19.bindTooltip(
+                `<div>
+                     Henry Fawcett Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_97b75159256b6a13d8bb4c075953c0ac = L.circle(
+                [51.5137032, -0.017753],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_b0a6b972c4c64ab612a3b05f8255890e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_696a0ff87d789c51b3bc9f3889ea2f65 = $(`<div id="html_696a0ff87d789c51b3bc9f3889ea2f65" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_b0a6b972c4c64ab612a3b05f8255890e.setContent(html_696a0ff87d789c51b3bc9f3889ea2f65);
+            
+        
+
+        circle_97b75159256b6a13d8bb4c075953c0ac.bindPopup(popup_b0a6b972c4c64ab612a3b05f8255890e)
+        ;
+
+        
+    
+    
+            circle_97b75159256b6a13d8bb4c075953c0ac.bindTooltip(
+                `<div>
+                     Lansbury Lawrence Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6c0b48afd6cc61c0a2f2e37068d5469e = L.circle(
+                [51.5986283, 0.0248648],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_7fda457a15b13b2a4df24ec8d1db17b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26119b66b53d3ddd684d4956b7843288 = $(`<div id="html_26119b66b53d3ddd684d4956b7843288" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_7fda457a15b13b2a4df24ec8d1db17b7.setContent(html_26119b66b53d3ddd684d4956b7843288);
+            
+        
+
+        circle_6c0b48afd6cc61c0a2f2e37068d5469e.bindPopup(popup_7fda457a15b13b2a4df24ec8d1db17b7)
+        ;
+
+        
+    
+    
+            circle_6c0b48afd6cc61c0a2f2e37068d5469e.bindTooltip(
+                `<div>
+                     Churchfields Junior School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_529f785118a53f498b9d59b878b49a1e = L.circle(
+                [51.5986283, 0.0248648],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_30d6886970f99d2ea4a12be69b65cbac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17fdb1b22343422f04b8dcff63feac8d = $(`<div id="html_17fdb1b22343422f04b8dcff63feac8d" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_30d6886970f99d2ea4a12be69b65cbac.setContent(html_17fdb1b22343422f04b8dcff63feac8d);
+            
+        
+
+        circle_529f785118a53f498b9d59b878b49a1e.bindPopup(popup_30d6886970f99d2ea4a12be69b65cbac)
+        ;
+
+        
+    
+    
+            circle_529f785118a53f498b9d59b878b49a1e.bindTooltip(
+                `<div>
+                     Churchfields Infants' School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bde032dda5ac9ec372cf158a36fdbb2c = L.circle(
+                [51.4516267, -0.0870623],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_ef29b6cb11b1e95900bfd2879f849762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_336f7227c6417d064c32f17949c72c86 = $(`<div id="html_336f7227c6417d064c32f17949c72c86" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_ef29b6cb11b1e95900bfd2879f849762.setContent(html_336f7227c6417d064c32f17949c72c86);
+            
+        
+
+        circle_bde032dda5ac9ec372cf158a36fdbb2c.bindPopup(popup_ef29b6cb11b1e95900bfd2879f849762)
+        ;
+
+        
+    
+    
+            circle_bde032dda5ac9ec372cf158a36fdbb2c.bindTooltip(
+                `<div>
+                     Dulwich Hamlet Junior School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1dfa7f811026e60219cbaa21670b0096 = L.circle(
+                [51.5226902, -0.0380844],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_553044e25bb34573bebdd895d5d2857e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e92534d1755327fb28f23aed25fdaeb = $(`<div id="html_1e92534d1755327fb28f23aed25fdaeb" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_553044e25bb34573bebdd895d5d2857e.setContent(html_1e92534d1755327fb28f23aed25fdaeb);
+            
+        
+
+        circle_1dfa7f811026e60219cbaa21670b0096.bindPopup(popup_553044e25bb34573bebdd895d5d2857e)
+        ;
+
+        
+    
+    
+            circle_1dfa7f811026e60219cbaa21670b0096.bindTooltip(
+                `<div>
+                     Solebay Primary - A Paradigm Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_34ed835b803e21f17527391499716eba = L.circle(
+                [51.5660465, -0.0211046],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_2d88b0469829d77b5733abe6a8344141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eba7223ea15634c29a6fef11a427b99 = $(`<div id="html_1eba7223ea15634c29a6fef11a427b99" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_2d88b0469829d77b5733abe6a8344141.setContent(html_1eba7223ea15634c29a6fef11a427b99);
+            
+        
+
+        circle_34ed835b803e21f17527391499716eba.bindPopup(popup_2d88b0469829d77b5733abe6a8344141)
+        ;
+
+        
+    
+    
+            circle_34ed835b803e21f17527391499716eba.bindTooltip(
+                `<div>
+                     Willow Brook Primary School Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ca3384aad7152b3d9a8124cb04718c2a = L.circle(
+                [51.5876827, -0.085191],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_9822f96ffef1de94dff930a665a71a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f3d0ca994fee971a79832b454b53d50 = $(`<div id="html_8f3d0ca994fee971a79832b454b53d50" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_9822f96ffef1de94dff930a665a71a7b.setContent(html_8f3d0ca994fee971a79832b454b53d50);
+            
+        
+
+        circle_ca3384aad7152b3d9a8124cb04718c2a.bindPopup(popup_9822f96ffef1de94dff930a665a71a7b)
+        ;
+
+        
+    
+    
+            circle_ca3384aad7152b3d9a8124cb04718c2a.bindTooltip(
+                `<div>
+                     Harris Primary Academy Philip Lane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_53730a5bc8e83c7008d17f8286be211a = L.circle(
+                [51.5961774, -0.1019913],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_935d81b53f30b1f604c6fa5a79e7837e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94667104d1b05ee59aedce923068c4e = $(`<div id="html_a94667104d1b05ee59aedce923068c4e" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_935d81b53f30b1f604c6fa5a79e7837e.setContent(html_a94667104d1b05ee59aedce923068c4e);
+            
+        
+
+        circle_53730a5bc8e83c7008d17f8286be211a.bindPopup(popup_935d81b53f30b1f604c6fa5a79e7837e)
+        ;
+
+        
+    
+    
+            circle_53730a5bc8e83c7008d17f8286be211a.bindTooltip(
+                `<div>
+                     Noel Park Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d0b6a65d2f7f3704a856b26c0867f6c3 = L.circle(
+                [51.6001735, -0.1136904],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d84865beec36cadac1247cb1ac722939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96c2938897297bbe37e2755e2ee6dd27 = $(`<div id="html_96c2938897297bbe37e2755e2ee6dd27" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d84865beec36cadac1247cb1ac722939.setContent(html_96c2938897297bbe37e2755e2ee6dd27);
+            
+        
+
+        circle_d0b6a65d2f7f3704a856b26c0867f6c3.bindPopup(popup_d84865beec36cadac1247cb1ac722939)
+        ;
+
+        
+    
+    
+            circle_d0b6a65d2f7f3704a856b26c0867f6c3.bindTooltip(
+                `<div>
+                     Trinity Primary Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_67774f7b63164fffda12ff8c276398df = L.circle(
+                [51.4918692, -0.1304091],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_aa784f29dd21da9d371bdd82bb95edce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a7e91e32940691f6d2a63a6d675ce0 = $(`<div id="html_98a7e91e32940691f6d2a63a6d675ce0" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_aa784f29dd21da9d371bdd82bb95edce.setContent(html_98a7e91e32940691f6d2a63a6d675ce0);
+            
+        
+
+        circle_67774f7b63164fffda12ff8c276398df.bindPopup(popup_aa784f29dd21da9d371bdd82bb95edce)
+        ;
+
+        
+    
+    
+            circle_67774f7b63164fffda12ff8c276398df.bindTooltip(
+                `<div>
+                     Millbank Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e87c2f40601bc105928aa19a0f8476da = L.circle(
+                [51.4945606, -0.2303859],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_3d4e3fe64c14d578950107c6069d6c23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b061831aba82068e29c21e8823b1f8d = $(`<div id="html_7b061831aba82068e29c21e8823b1f8d" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_3d4e3fe64c14d578950107c6069d6c23.setContent(html_7b061831aba82068e29c21e8823b1f8d);
+            
+        
+
+        circle_e87c2f40601bc105928aa19a0f8476da.bindPopup(popup_3d4e3fe64c14d578950107c6069d6c23)
+        ;
+
+        
+    
+    
+            circle_e87c2f40601bc105928aa19a0f8476da.bindTooltip(
+                `<div>
+                     West London Free School Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_60c20995bed0c10df58c5dd712b331be = L.circle(
+                [51.4684732, -0.266394],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5f33995a67f8e1e5cafcc9c760833b6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a842140ee1874d68d9a86b2d8a378ea7 = $(`<div id="html_a842140ee1874d68d9a86b2d8a378ea7" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5f33995a67f8e1e5cafcc9c760833b6b.setContent(html_a842140ee1874d68d9a86b2d8a378ea7);
+            
+        
+
+        circle_60c20995bed0c10df58c5dd712b331be.bindPopup(popup_5f33995a67f8e1e5cafcc9c760833b6b)
+        ;
+
+        
+    
+    
+            circle_60c20995bed0c10df58c5dd712b331be.bindTooltip(
+                `<div>
+                     Thomson House School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f933dbc31a141053bf29485b9c183d7 = L.circle(
+                [51.467902, -0.0439058],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_58b86a14b2ef111bbf5fec7d63c37a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e50c71bb704720b6d920e90007dfeb4c = $(`<div id="html_e50c71bb704720b6d920e90007dfeb4c" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_58b86a14b2ef111bbf5fec7d63c37a50.setContent(html_e50c71bb704720b6d920e90007dfeb4c);
+            
+        
+
+        circle_5f933dbc31a141053bf29485b9c183d7.bindPopup(popup_58b86a14b2ef111bbf5fec7d63c37a50)
+        ;
+
+        
+    
+    
+            circle_5f933dbc31a141053bf29485b9c183d7.bindTooltip(
+                `<div>
+                     Haberdashers' Hatcham Free School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_14599e056e6d10682c121e90a131fb16 = L.circle(
+                [51.5051433, -0.265885],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_a07115a0d54b9774f9254c4e8914f4f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_696286c6da82f4c5eda454eca470a684 = $(`<div id="html_696286c6da82f4c5eda454eca470a684" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_a07115a0d54b9774f9254c4e8914f4f7.setContent(html_696286c6da82f4c5eda454eca470a684);
+            
+        
+
+        circle_14599e056e6d10682c121e90a131fb16.bindPopup(popup_a07115a0d54b9774f9254c4e8914f4f7)
+        ;
+
+        
+    
+    
+            circle_14599e056e6d10682c121e90a131fb16.bindTooltip(
+                `<div>
+                     Ark Priory Primary Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f157d9466d19fd2c26bae33ce0fdef1 = L.circle(
+                [51.5666768, -0.0187857],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_78d29903374776286948970a4807c879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e9bd025c0f9e02eb2b05cd7ee5a3dd4 = $(`<div id="html_1e9bd025c0f9e02eb2b05cd7ee5a3dd4" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_78d29903374776286948970a4807c879.setContent(html_1e9bd025c0f9e02eb2b05cd7ee5a3dd4);
+            
+        
+
+        circle_5f157d9466d19fd2c26bae33ce0fdef1.bindPopup(popup_78d29903374776286948970a4807c879)
+        ;
+
+        
+    
+    
+            circle_5f157d9466d19fd2c26bae33ce0fdef1.bindTooltip(
+                `<div>
+                     Riverley Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_313fa17c35c762dcb61901110b04f8ab = L.circle(
+                [51.5704983, -0.0272709],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_cc6dde71ffe7fa81cefdb6750b1cba5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f176e10e6e0d4044bed36d425bbec332 = $(`<div id="html_f176e10e6e0d4044bed36d425bbec332" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_cc6dde71ffe7fa81cefdb6750b1cba5f.setContent(html_f176e10e6e0d4044bed36d425bbec332);
+            
+        
+
+        circle_313fa17c35c762dcb61901110b04f8ab.bindPopup(popup_cc6dde71ffe7fa81cefdb6750b1cba5f)
+        ;
+
+        
+    
+    
+            circle_313fa17c35c762dcb61901110b04f8ab.bindTooltip(
+                `<div>
+                     Sybourn Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ee3d058202b8516c2e271454d27ecd43 = L.circle(
+                [51.5383866, -0.1319332],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_8df765060b11768f76cfb0e5eed43698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b22f475d61917855967200917ef55877 = $(`<div id="html_b22f475d61917855967200917ef55877" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_8df765060b11768f76cfb0e5eed43698.setContent(html_b22f475d61917855967200917ef55877);
+            
+        
+
+        circle_ee3d058202b8516c2e271454d27ecd43.bindPopup(popup_8df765060b11768f76cfb0e5eed43698)
+        ;
+
+        
+    
+    
+            circle_ee3d058202b8516c2e271454d27ecd43.bindTooltip(
+                `<div>
+                     Abacus Belsize Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ea68fd42c4b89f2ea8b80ae8dc3e5690 = L.circle(
+                [51.4879276, -0.1400832],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_2e8a41ef4ed6f60d58c58096000fd268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cf8cbede1a1fe4918775f7453fd4a20 = $(`<div id="html_5cf8cbede1a1fe4918775f7453fd4a20" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_2e8a41ef4ed6f60d58c58096000fd268.setContent(html_5cf8cbede1a1fe4918775f7453fd4a20);
+            
+        
+
+        circle_ea68fd42c4b89f2ea8b80ae8dc3e5690.bindPopup(popup_2e8a41ef4ed6f60d58c58096000fd268)
+        ;
+
+        
+    
+    
+            circle_ea68fd42c4b89f2ea8b80ae8dc3e5690.bindTooltip(
+                `<div>
+                     Pimlico Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_71722120384d8cf9ae014bf0b75f9ee2 = L.circle(
+                [51.5143524, -0.0036001],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_a13be264ae168a7153567288422be081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_815ce2da1c3e3240faafa789881fd2a0 = $(`<div id="html_815ce2da1c3e3240faafa789881fd2a0" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_a13be264ae168a7153567288422be081.setContent(html_815ce2da1c3e3240faafa789881fd2a0);
+            
+        
+
+        circle_71722120384d8cf9ae014bf0b75f9ee2.bindPopup(popup_a13be264ae168a7153567288422be081)
+        ;
+
+        
+    
+    
+            circle_71722120384d8cf9ae014bf0b75f9ee2.bindTooltip(
+                `<div>
+                     Culloden Primary - A Paradigm Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_153b6c1b849f4c5300ecc25523e5b661 = L.circle(
+                [51.5336221, -0.0312401],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_97928b6630a2e8c1f9c89e1019e9ded4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ee46071bc42be5c77f317c77f320632 = $(`<div id="html_2ee46071bc42be5c77f317c77f320632" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_97928b6630a2e8c1f9c89e1019e9ded4.setContent(html_2ee46071bc42be5c77f317c77f320632);
+            
+        
+
+        circle_153b6c1b849f4c5300ecc25523e5b661.bindPopup(popup_97928b6630a2e8c1f9c89e1019e9ded4)
+        ;
+
+        
+    
+    
+            circle_153b6c1b849f4c5300ecc25523e5b661.bindTooltip(
+                `<div>
+                     Old Ford Primary - A Paradigm Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9aef816bf7ba0cf8d93d7281783b3fd3 = L.circle(
+                [51.4962088, -0.2050072],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5a5cf2b045dfb6859fa60ae93e0fac14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b81dedfb3e96834521bffdca4aa3be7 = $(`<div id="html_3b81dedfb3e96834521bffdca4aa3be7" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5a5cf2b045dfb6859fa60ae93e0fac14.setContent(html_3b81dedfb3e96834521bffdca4aa3be7);
+            
+        
+
+        circle_9aef816bf7ba0cf8d93d7281783b3fd3.bindPopup(popup_5a5cf2b045dfb6859fa60ae93e0fac14)
+        ;
+
+        
+    
+    
+            circle_9aef816bf7ba0cf8d93d7281783b3fd3.bindTooltip(
+                `<div>
+                     Kensington Primary Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6318b6f96c0119f5516d8187b8ba9fbf = L.circle(
+                [51.4945606, -0.2303859],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_39bba928d6bab1062c19d050a93a8fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66451f0d0e6041af0f2db3005649e4cd = $(`<div id="html_66451f0d0e6041af0f2db3005649e4cd" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_39bba928d6bab1062c19d050a93a8fa2.setContent(html_66451f0d0e6041af0f2db3005649e4cd);
+            
+        
+
+        circle_6318b6f96c0119f5516d8187b8ba9fbf.bindPopup(popup_39bba928d6bab1062c19d050a93a8fa2)
+        ;
+
+        
+    
+    
+            circle_6318b6f96c0119f5516d8187b8ba9fbf.bindTooltip(
+                `<div>
+                     Earl's Court Free School Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98d2d2a1be20167d8893ffee890c244e = L.circle(
+                [51.4554026, -0.0763034],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_962bf7e78d04dd876e175285f35c9eeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbec56a8f4128d8be840c4473335ff3b = $(`<div id="html_fbec56a8f4128d8be840c4473335ff3b" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_962bf7e78d04dd876e175285f35c9eeb.setContent(html_fbec56a8f4128d8be840c4473335ff3b);
+            
+        
+
+        circle_98d2d2a1be20167d8893ffee890c244e.bindPopup(popup_962bf7e78d04dd876e175285f35c9eeb)
+        ;
+
+        
+    
+    
+            circle_98d2d2a1be20167d8893ffee890c244e.bindTooltip(
+                `<div>
+                     Harris Primary Academy East Dulwich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_42973df374c544f5e3192cb47e05898c = L.circle(
+                [51.4081684, -0.1927361],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_43ab74eac33ed76da2f0ddad919aa936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_308030178e4da0d21fdd64a25318a698 = $(`<div id="html_308030178e4da0d21fdd64a25318a698" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_43ab74eac33ed76da2f0ddad919aa936.setContent(html_308030178e4da0d21fdd64a25318a698);
+            
+        
+
+        circle_42973df374c544f5e3192cb47e05898c.bindPopup(popup_43ab74eac33ed76da2f0ddad919aa936)
+        ;
+
+        
+    
+    
+            circle_42973df374c544f5e3192cb47e05898c.bindTooltip(
+                `<div>
+                     Park Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_04c7459ac0ed32ef776a4c715c6c2391 = L.circle(
+                [51.5392997, -0.0774909999999999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_d358a5cb30e5803a2827ee519d2bb4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc424e9d7dda539dbfd4a2415af4de2 = $(`<div id="html_ccc424e9d7dda539dbfd4a2415af4de2" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_d358a5cb30e5803a2827ee519d2bb4f0.setContent(html_ccc424e9d7dda539dbfd4a2415af4de2);
+            
+        
+
+        circle_04c7459ac0ed32ef776a4c715c6c2391.bindPopup(popup_d358a5cb30e5803a2827ee519d2bb4f0)
+        ;
+
+        
+    
+    
+            circle_04c7459ac0ed32ef776a4c715c6c2391.bindTooltip(
+                `<div>
+                     Hackney New Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d48f8443494fde57bbc44a8d265bfb16 = L.circle(
+                [51.5336758, 0.0184142],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_61f49b6260b8f4fdebf84bf475f7f43b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efea48132fa277e427099df6b4a94469 = $(`<div id="html_efea48132fa277e427099df6b4a94469" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_61f49b6260b8f4fdebf84bf475f7f43b.setContent(html_efea48132fa277e427099df6b4a94469);
+            
+        
+
+        circle_d48f8443494fde57bbc44a8d265bfb16.bindPopup(popup_61f49b6260b8f4fdebf84bf475f7f43b)
+        ;
+
+        
+    
+    
+            circle_d48f8443494fde57bbc44a8d265bfb16.bindTooltip(
+                `<div>
+                     Portway Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0c862a6923a0a78e6bc6d3a3d82548ca = L.circle(
+                [51.4902377, -0.0596596],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_7f3f7ab28b086ef472d461bc59d072be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_972a7be8e62c26c59f25cefa49b9f190 = $(`<div id="html_972a7be8e62c26c59f25cefa49b9f190" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_7f3f7ab28b086ef472d461bc59d072be.setContent(html_972a7be8e62c26c59f25cefa49b9f190);
+            
+        
+
+        circle_0c862a6923a0a78e6bc6d3a3d82548ca.bindPopup(popup_7f3f7ab28b086ef472d461bc59d072be)
+        ;
+
+        
+    
+    
+            circle_0c862a6923a0a78e6bc6d3a3d82548ca.bindTooltip(
+                `<div>
+                     Galleywall Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c86e417adb60be5e5cf843af1ca1df36 = L.circle(
+                [51.5233684, -0.09681],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_0d8c436e5e0bc90ef76385a1e2e0eb43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8804fd26b270d2a87054446f4b161127 = $(`<div id="html_8804fd26b270d2a87054446f4b161127" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_0d8c436e5e0bc90ef76385a1e2e0eb43.setContent(html_8804fd26b270d2a87054446f4b161127);
+            
+        
+
+        circle_c86e417adb60be5e5cf843af1ca1df36.bindPopup(popup_0d8c436e5e0bc90ef76385a1e2e0eb43)
+        ;
+
+        
+    
+    
+            circle_c86e417adb60be5e5cf843af1ca1df36.bindTooltip(
+                `<div>
+                     City of London Primary Academy, Islington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_003d8fa601e06d046fe59ecf288882de = L.circle(
+                [51.5209114, 0.0253867],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_367cc0f6fd48a2d29399f138f7ef55bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d7366bfd78632bc359f3c0c7c03fa3 = $(`<div id="html_c4d7366bfd78632bc359f3c0c7c03fa3" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_367cc0f6fd48a2d29399f138f7ef55bd.setContent(html_c4d7366bfd78632bc359f3c0c7c03fa3);
+            
+        
+
+        circle_003d8fa601e06d046fe59ecf288882de.bindPopup(popup_367cc0f6fd48a2d29399f138f7ef55bd)
+        ;
+
+        
+    
+    
+            circle_003d8fa601e06d046fe59ecf288882de.bindTooltip(
+                `<div>
+                     Kaizen Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_154a6971549d08eea7f99c356fbdd8a7 = L.circle(
+                [51.4869293, 0.0760049],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_5cd27f94fc73624f20c54ae1685ba458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12fd25906b830f0ec1c824eacf8532a5 = $(`<div id="html_12fd25906b830f0ec1c824eacf8532a5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_5cd27f94fc73624f20c54ae1685ba458.setContent(html_12fd25906b830f0ec1c824eacf8532a5);
+            
+        
+
+        circle_154a6971549d08eea7f99c356fbdd8a7.bindPopup(popup_5cd27f94fc73624f20c54ae1685ba458)
+        ;
+
+        
+    
+    
+            circle_154a6971549d08eea7f99c356fbdd8a7.bindTooltip(
+                `<div>
+                     Foxfield Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b3a46cf47c16a90f855aba49420099da = L.circle(
+                [51.5195355, 0.0339499],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_2db64a3392e1a19060495b3641e174b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_959881a0cecb52349ab94d864d28e9bb = $(`<div id="html_959881a0cecb52349ab94d864d28e9bb" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_2db64a3392e1a19060495b3641e174b1.setContent(html_959881a0cecb52349ab94d864d28e9bb);
+            
+        
+
+        circle_b3a46cf47c16a90f855aba49420099da.bindPopup(popup_2db64a3392e1a19060495b3641e174b1)
+        ;
+
+        
+    
+    
+            circle_b3a46cf47c16a90f855aba49420099da.bindTooltip(
+                `<div>
+                     Tollgate Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_72d8e630a24cc3ceb258dfef86b0895a = L.circle(
+                [51.5303969, 0.0207019],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_869cbb382d68ebc614a1e0a25439d873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33cd22276efb4fbe472b6f33564dc62f = $(`<div id="html_33cd22276efb4fbe472b6f33564dc62f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_869cbb382d68ebc614a1e0a25439d873.setContent(html_33cd22276efb4fbe472b6f33564dc62f);
+            
+        
+
+        circle_72d8e630a24cc3ceb258dfef86b0895a.bindPopup(popup_869cbb382d68ebc614a1e0a25439d873)
+        ;
+
+        
+    
+    
+            circle_72d8e630a24cc3ceb258dfef86b0895a.bindTooltip(
+                `<div>
+                     Curwen Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9beacb52c2212e8e2d5f2e0497fd86f8 = L.circle(
+                [51.5170228, -0.0282439],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_c52616176481fa7137e1efdc12fc5717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d300d5ca57a08528db667204abd7a5 = $(`<div id="html_e6d300d5ca57a08528db667204abd7a5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_c52616176481fa7137e1efdc12fc5717.setContent(html_e6d300d5ca57a08528db667204abd7a5);
+            
+        
+
+        circle_9beacb52c2212e8e2d5f2e0497fd86f8.bindPopup(popup_c52616176481fa7137e1efdc12fc5717)
+        ;
+
+        
+    
+    
+            circle_9beacb52c2212e8e2d5f2e0497fd86f8.bindTooltip(
+                `<div>
+                     Stebon Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_760159aea02c9713cbc2f96534a1672d = L.circle(
+                [51.512927, -0.0184095],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_362e9c9859b216b4ca240cecf5c71b0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17ff804774e5f0e48657cb475ecded6b = $(`<div id="html_17ff804774e5f0e48657cb475ecded6b" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_362e9c9859b216b4ca240cecf5c71b0d.setContent(html_17ff804774e5f0e48657cb475ecded6b);
+            
+        
+
+        circle_760159aea02c9713cbc2f96534a1672d.bindPopup(popup_362e9c9859b216b4ca240cecf5c71b0d)
+        ;
+
+        
+    
+    
+            circle_760159aea02c9713cbc2f96534a1672d.bindTooltip(
+                `<div>
+                     Bygrove Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a9fb7295167e9529bab1d57931f8fc5b = L.circle(
+                [51.514866, 0.0264636],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_65442ed1e4c0b09299629c4a75bcd31e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b87de6e71ee4ac9211f107c1d34710 = $(`<div id="html_92b87de6e71ee4ac9211f107c1d34710" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_65442ed1e4c0b09299629c4a75bcd31e.setContent(html_92b87de6e71ee4ac9211f107c1d34710);
+            
+        
+
+        circle_a9fb7295167e9529bab1d57931f8fc5b.bindPopup(popup_65442ed1e4c0b09299629c4a75bcd31e)
+        ;
+
+        
+    
+    
+            circle_a9fb7295167e9529bab1d57931f8fc5b.bindTooltip(
+                `<div>
+                     Rosetta Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_41d2244169074e27a74867a88220857f = L.circle(
+                [51.5452631, 0.0429512],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_f49d489b152448ab112c05dc1cd4981b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e673d665af205c7c63c0cac081ee417f = $(`<div id="html_e673d665af205c7c63c0cac081ee417f" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_f49d489b152448ab112c05dc1cd4981b.setContent(html_e673d665af205c7c63c0cac081ee417f);
+            
+        
+
+        circle_41d2244169074e27a74867a88220857f.bindPopup(popup_f49d489b152448ab112c05dc1cd4981b)
+        ;
+
+        
+    
+    
+            circle_41d2244169074e27a74867a88220857f.bindTooltip(
+                `<div>
+                     Monega Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3169cee75dc202ebcb43c16267a54e94 = L.circle(
+                [51.5397772, 0.0305639],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_e709cfcd0cf866d2388577e25b54340e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a593f60ad65cce12d1da5ced8cbc1ed = $(`<div id="html_2a593f60ad65cce12d1da5ced8cbc1ed" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_e709cfcd0cf866d2388577e25b54340e.setContent(html_2a593f60ad65cce12d1da5ced8cbc1ed);
+            
+        
+
+        circle_3169cee75dc202ebcb43c16267a54e94.bindPopup(popup_e709cfcd0cf866d2388577e25b54340e)
+        ;
+
+        
+    
+    
+            circle_3169cee75dc202ebcb43c16267a54e94.bindTooltip(
+                `<div>
+                     Elmhurst Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f24e491b55a70843d61198e908fcdc37 = L.circle(
+                [51.5122159, 0.0170213],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_dea341626f4d68dc7a6de306eb57f98a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33238ad4a0817b7f494f828286338ab1 = $(`<div id="html_33238ad4a0817b7f494f828286338ab1" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_dea341626f4d68dc7a6de306eb57f98a.setContent(html_33238ad4a0817b7f494f828286338ab1);
+            
+        
+
+        circle_f24e491b55a70843d61198e908fcdc37.bindPopup(popup_dea341626f4d68dc7a6de306eb57f98a)
+        ;
+
+        
+    
+    
+            circle_f24e491b55a70843d61198e908fcdc37.bindTooltip(
+                `<div>
+                     Hallsville Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f2e3d7d0bd462f92b34184493e30217 = L.circle(
+                [51.5133569, 0.0364396],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_44dd0eaa133d4066017fc0465d5dbc48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffb791f6f3741cfcf219f6e41de38cc5 = $(`<div id="html_ffb791f6f3741cfcf219f6e41de38cc5" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_44dd0eaa133d4066017fc0465d5dbc48.setContent(html_ffb791f6f3741cfcf219f6e41de38cc5);
+            
+        
+
+        circle_5f2e3d7d0bd462f92b34184493e30217.bindPopup(popup_44dd0eaa133d4066017fc0465d5dbc48)
+        ;
+
+        
+    
+    
+            circle_5f2e3d7d0bd462f92b34184493e30217.bindTooltip(
+                `<div>
+                     Scott Wilkie Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fdc5937a5c652679fe5bb268355e2549 = L.circle(
+                [51.5245905, 0.0367912],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_502fa4c5f5946671d0ca53e9d9bee42f);
+        
+    
+        var popup_43ad18419da4edfe3b1e54ac53a00b27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1109298bd0c5018a1da7952b78bc1a = $(`<div id="html_ae1109298bd0c5018a1da7952b78bc1a" style="width: 100.0%; height: 100.0%;">500 meters</div>`)[0];
+                popup_43ad18419da4edfe3b1e54ac53a00b27.setContent(html_ae1109298bd0c5018a1da7952b78bc1a);
+            
+        
+
+        circle_fdc5937a5c652679fe5bb268355e2549.bindPopup(popup_43ad18419da4edfe3b1e54ac53a00b27)
+        ;
+
+        
+    
+    
+            circle_fdc5937a5c652679fe5bb268355e2549.bindTooltip(
+                `<div>
+                     New City Primary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
